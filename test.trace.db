@@ -1,0 +1,32 @@
+2021-10-21 14:11:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTS" no encontrada
+Table "CLIENTS" not found; SQL statement:
+SELECT * FROM clients [42102-200]
+2021-10-21 14:41:31 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTS" no encontrada
+Table "CLIENTS" not found; SQL statement:
+SELECT * FROM clients [42102-200]
+2021-10-21 14:51:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTS" no encontrada
+Table "CLIENTS" not found; SQL statement:
+select client0_.id as id1_0_, client0_.company_name as company_2_0_, client0_.contact_last_name as contact_3_0_, client0_.ccontact_name as ccontact4_0_, client0_.phone_number as phone_nu5_0_ from clients client0_ [42102-200]
+2021-10-21 14:55:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTS" no encontrada
+Table "CLIENTS" not found; SQL statement:
+select client0_.id as id1_0_, client0_.company_name as company_2_0_, client0_.contact_last_name as contact_3_0_, client0_.ccontact_name as ccontact4_0_, client0_.phone_number as phone_nu5_0_ from clients client0_ [42102-200]
+2021-10-21 15:49:32 jdbc[14]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTS" no encontrada
+Table "CLIENTS" not found; SQL statement:
+select client0_.id as id1_0_, client0_.company_name as company_2_0_, client0_.contact_last_name as contact_3_0_, client0_.ccontact_name as ccontact4_0_, client0_.phone_number as phone_nu5_0_ from clients client0_ [42102-200]
+2021-10-21 15:50:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTS" no encontrada
+Table "CLIENTS" not found; SQL statement:
+select client0_.id as id1_0_, client0_.company_name as company_2_0_, client0_.contact_last_name as contact_3_0_, client0_.ccontact_name as ccontact4_0_, client0_.phone_number as phone_nu5_0_ from clients client0_ [42102-200]
+2021-10-21 16:06:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTS" no encontrada
+Table "CLIENTS" not found; SQL statement:
+insert into clients (id, company_name, contact_last_name, ccontact_name, phone_number) values (null, ?, ?, ?, ?) [42102-200]
+2021-10-21 16:10:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CLIENTS" no encontrada
+Table "CLIENTS" not found; SQL statement:
+select client0_.id as id1_0_, client0_.company_name as company_2_0_, client0_.contact_last_name as contact_3_0_, client0_.ccontact_name as ccontact4_0_, client0_.phone_number as phone_nu5_0_ from clients client0_ [42102-200]

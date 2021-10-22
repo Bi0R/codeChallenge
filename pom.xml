@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bairesdev</groupId>
-	<artifactId>ClientManager</artifactId>
+	<artifactId>CustomerManager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ClientManager</name>
-	<description>REST Client Manager</description>
+	<name>CustomerManager</name>
+	<description>REST Customer Manager</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>

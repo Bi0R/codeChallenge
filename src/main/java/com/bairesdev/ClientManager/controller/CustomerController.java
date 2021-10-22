@@ -1,39 +1,39 @@
 package com.bairesdev.ClientManager.controller;
 
-import com.bairesdev.ClientManager.model.entity.Client;
-import com.bairesdev.ClientManager.model.service.IClientService;
+import com.bairesdev.ClientManager.entity.Customer;
+import com.bairesdev.ClientManager.service.ICustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
-@RequestMapping(value="client")
-public class ClientController {
+@RequestMapping(value="customer")
+public class CustomerController {
     @Autowired
-    private IClientService clientService;
+    private ICustomerService customerService;
 
     //creating a get mapping that retrieves the detail of all clients
     @GetMapping()
-    public List<Client> getTasks() {
-        return clientService.getClient();
+    public List<Customer> getTasks() {
+        return customerService.getCustomer();
     }
 
     //creating a get mapping that retrieves the detail of a specific client
     @GetMapping("/{id}")
-    private Client getStudent(@PathVariable("id") Integer id) {
-        return clientService.getClientById(id).get();
+    private Customer getStudent(@PathVariable("id") Integer id) {
+        return customerService.getCustomerById(id).get();
     }
 
     //creating a delete mapping that deletes a specific student
     @DeleteMapping("/{id}")
     private void deleteStudent(@PathVariable("id") int id) {
-        clientService.deleteClientById(id);
+        customerService.deleteCustomerById(id);
     }
     //creating post mapping that post the student detail in the database
     @PostMapping()
-    private Client saveStudent(@RequestBody Client client) {
-        clientService.saveOrUpdateClient(client);
-        return client;
+    private Customer saveStudent(@RequestBody Customer customer) {
+        customerService.saveOrUpdateCustomer(customer);
+        return customer;
     }
 }

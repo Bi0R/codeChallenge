@@ -5,6 +5,7 @@ import com.bairesdev.ClientManager.entity.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -19,7 +20,9 @@ public class CustomerService implements ICustomerService {
      * @return
      */
     public List<Customer> getCustomer() {
-        return (List<Customer>) customerDao.findAll();
+        List<Customer> customers = new ArrayList<>();
+        customerDao.findAll().forEach(customer->customers.add(customer));
+        return customers;
     }
 
     /**

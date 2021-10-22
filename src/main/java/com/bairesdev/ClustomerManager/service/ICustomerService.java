@@ -1,6 +1,6 @@
-package com.bairesdev.ClientManager.service;
+package com.bairesdev.ClustomerManager.service;
 
-import com.bairesdev.ClientManager.entity.Customer;
+import com.bairesdev.ClustomerManager.entity.Customer;
 
 import java.util.List;
 import java.util.Optional;

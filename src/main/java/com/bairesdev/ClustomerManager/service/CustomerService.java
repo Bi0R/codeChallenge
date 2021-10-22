@@ -1,7 +1,7 @@
-package com.bairesdev.ClientManager.service;
+package com.bairesdev.ClustomerManager.service;
 
-import com.bairesdev.ClientManager.dao.IClustomerDao;
-import com.bairesdev.ClientManager.entity.Customer;
+import com.bairesdev.ClustomerManager.dao.IClustomerDao;
+import com.bairesdev.ClustomerManager.entity.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

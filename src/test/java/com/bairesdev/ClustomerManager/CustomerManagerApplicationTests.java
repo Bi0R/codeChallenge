@@ -1,4 +1,4 @@
-package com.bairesdev.ClientManager;
+package com.bairesdev.ClustomerManager;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

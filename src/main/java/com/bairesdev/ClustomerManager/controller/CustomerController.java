@@ -1,7 +1,7 @@
-package com.bairesdev.ClientManager.controller;
+package com.bairesdev.ClustomerManager.controller;
 
-import com.bairesdev.ClientManager.entity.Customer;
-import com.bairesdev.ClientManager.service.ICustomerService;
+import com.bairesdev.ClustomerManager.entity.Customer;
+import com.bairesdev.ClustomerManager.service.ICustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

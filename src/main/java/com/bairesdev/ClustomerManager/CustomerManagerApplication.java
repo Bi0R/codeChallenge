@@ -1,4 +1,4 @@
-package com.bairesdev.ClientManager;
+package com.bairesdev.ClustomerManager;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

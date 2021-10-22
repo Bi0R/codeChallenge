@@ -1,4 +1,4 @@
-package com.bairesdev.ClientManager.entity;
+package com.bairesdev.ClustomerManager.entity;
 
 import javax.persistence.*;
 import java.io.Serializable;
